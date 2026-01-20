@@ -36,9 +36,12 @@ const deleteFunction = function () {
 // COUNTER FUNCTION
 const counterSeconds = function () {
   let seconds = sessionStorage.getItem(SESSIONSTORAGE_KEY);
+  console.log(seconds);
+  console.log(typeof seconds);
   const btnCounter = document.getElementById("seconds-counter");
+  // Number è un constructor che ritorna un numero e se il valore iniziale è null ritorna 0, undefined è NaN
   seconds = Number(seconds);
-
+  console.log(typeof seconds);
   btnCounter.innerText = seconds;
 
   setInterval(() => {
