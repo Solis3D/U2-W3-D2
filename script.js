@@ -35,7 +35,7 @@ const deleteFunction = function () {
 
 // COUNTER FUNCTION
 const counterSeconds = function () {
-  let seconds = sessionStorage.getItem("counter");
+  let seconds = sessionStorage.getItem(SESSIONSTORAGE_KEY);
   const btnCounter = document.getElementById("seconds-counter");
   seconds = Number(seconds);
 
