@@ -48,8 +48,8 @@ const counterSeconds = function () {
     btnCounter.innerText = seconds;
   }, 1000);
 
+  // Resetta il counter al click del bottone
   btnCounter.addEventListener("click", function () {
-    // resetta il counter al click
     sessionStorage.setItem(SESSIONSTORAGE_KEY, "0");
     seconds = 0;
   });

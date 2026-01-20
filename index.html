@@ -18,32 +18,27 @@
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/960px-SSC_Neapel.svg.png"
             alt="logo"
-            width="70"
+            width="60"
             class="img-thumbnail"
           />
         </a>
         <div class="d-flex align-items-center gap-3">
           <p class="d-inline mb-0">Counter Sessione</p>
-          <button id="seconds-counter" class="img-thumbnail fs-4" style="width: 70px">0</button>
+          <button type="button" id="seconds-counter" class="btn btn-outline-primary fs-4" style="width: 70px">0</button>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="container my-5 col-10 col-md-6">
-        <!-- <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp" />
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-          </div> -->
+      <section class="container my-5 col-10 col-md-6 col-lg-4">
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Username</label>
+          <label for="exampleInputPassword1" class="form-label fw-bold">Username</label>
           <h4 id="show-name" class="d-none fw-light"></h4>
           <input type="text" class="form-control" id="input-name" />
         </div>
         <div class="d-flex justify-content-end gap-2">
           <div>
-            <button type="button" class="btn btn-primary" id="btn-save">Submit</button>
+            <button type="button" class="btn btn-primary" id="btn-save">Sign In</button>
             <button type="button" class="btn btn-danger me-2" id="btn-delete">Delete</button>
           </div>
         </div>
